@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\MyCustomPackage;
+namespace Naiksahana\MyCustomPackage;
 
 class MyClass
 {

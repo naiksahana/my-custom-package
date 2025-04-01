@@ -1,17 +1,17 @@
 {
-    "name": "vendor/my-custom-package",
+    "name": "naiksahana/my-custom-package",
     "description": "My custom Laravel package.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Vendor\\MyCustomPackage\\": "src/"
+            "Naiksahana\\MyCustomPackage\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\MyCustomPackage\\MyCustomPackageServiceProvider"
+                "Naiksahana\\MyCustomPackage\\MyCustomPackageServiceProvider"
             ]
         }
     },

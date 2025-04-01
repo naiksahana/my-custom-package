@@ -1,0 +1,20 @@
+{
+    "name": "vendor/my-custom-package",
+    "description": "My custom Laravel package.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\MyCustomPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vendor\\MyCustomPackage\\MyCustomPackageServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
